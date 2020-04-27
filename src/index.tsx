@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Home from './pages';
+import { GlobalStyle } from 'styles/global';
 
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalStyle />
     <Home />
   </React.StrictMode>,
   document.getElementById('root')

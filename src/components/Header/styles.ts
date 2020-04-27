@@ -1,7 +1,12 @@
 import styles from 'styled-components';
-import { colors } from 'styles/colors';
 
 export const Navigation = styles.div`
-  font-size: 20px;
-  color: ${colors.black};
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  max-width: 100%;
+  left: 15px;
+  right: 15px;
+  padding: 15px 0;
+  position: absolute;
 `;
