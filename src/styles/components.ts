@@ -61,7 +61,7 @@ export const TextContent = styles.div`
   
   ${media.md} {
     padding-right: 24px;
-    margin-bottom: 128px;
+    margin-bottom: 156px;
   }
 `;
 

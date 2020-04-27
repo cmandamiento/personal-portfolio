@@ -27,6 +27,7 @@ export const UnorderedList = styles.ul`
 
     li {
       width: 24.5%;
+      margin-bottom: 30px;
     }
   }
 `;

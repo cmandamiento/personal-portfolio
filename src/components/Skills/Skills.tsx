@@ -9,7 +9,7 @@ const Skills = (props: any) => (
       <HeadingTitle as="h2">My Skills</HeadingTitle>
     </Animated>
 
-    <Animated duration={0.5} delay={0.5} direction="top">
+    <Animated duration={0.5} delay={0.25} direction="top">
       <TextContent>
         <p>
           I worked as Front-end developer last 6 years, but also, I've developed some
